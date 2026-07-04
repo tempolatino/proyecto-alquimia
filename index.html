@@ -83,10 +83,12 @@
     position:relative;
   }
   .hero-logo{
-    width:150px; height:auto; margin-bottom:36px;
+    width:340px; height:auto; margin-bottom:28px;
     opacity:0; animation:riseFade 1.1s ease forwards .15s;
-    border-radius:6px;
-    filter:drop-shadow(0 0 40px rgba(201,162,39,0.15));
+    filter:drop-shadow(0 0 50px rgba(201,162,39,0.18));
+  }
+  @media(max-width:600px){
+    .hero-logo{width:230px;}
   }
   .hero-eyebrow{
     font-size:13px; letter-spacing:0.32em; text-transform:uppercase;
@@ -279,7 +281,7 @@
 </header>
 
 <section class="hero">
-  <img src="assets/logo.jpg" alt="Alquimia Wellness Studio" class="hero-logo">
+  <img src="assets/logo.png" alt="Alquimia Wellness Studio" class="hero-logo">
   <div class="hero-eyebrow">Ciudad Juárez · Las Arcadas</div>
   <h1>Cinco disciplinas.<br><em>Un mismo laboratorio.</em></h1>
   <p>Alquimia reúne baile, movimiento, mente y cuerpo bajo un mismo techo. Cada espacio conserva su propia identidad — juntos, transforman.</p>
